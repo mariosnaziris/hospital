@@ -1,15 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" href="iatrio.css" type="text/css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Ραντεβού</title>
+<title>Αρχική Ασθενή</title>
 <link rel="shortcut icon" href="images/favicon.ico" />
-<style type="text/css">
-<!--
-.style1 {font-size: medium}
--->
-</style>
 </head>
 
 <body bgcolor="#6699FF" >
@@ -29,28 +24,23 @@
           
 <div id="site"> 
 <div id="date">
-<script language="javascript">
-var d=new Date();
-var monthname=new Array("01","02","03","04","05","06","07","08","09","10","11","12");
-
-var TODAY = d.getDate() + "-" +monthname[d.getMonth()]+ "-"+ d.getFullYear();
-
- document.write(TODAY);
-</script>
+<?php
+$today = date("d-m-Y");       
+echo $today;
+?>
 </div>
-
 <br/>
-<h6><span class="style1">Ραντεβού</span></h6>
-<br/>
-
-<form method="post" action="Profile.php">
-         	<p>Εισάγετε τον αριθμό ταυτότητας σας</p> <br/>
-			<input type="text" name="patient_id" id="patient_id"><br/><br/>
-            <div id="button">
-          <input type="submit" value="Είσοδος">
-
-          </form>
+<h7><strong>Καλωσήρθατε στο Ιατρικό Κέντρο Υγείας</strong></h7>
+<h5>Επικοινωνία</h5>
+  <p><strong>Διεύθυνση:</strong> ΒΟΛΟΣ</p>
+  <p><strong>Τηλ.:</strong> 2421012345</p>
+  <p><strong>Ηλ. Ταχυδρομείο.:</strong> <a href="mailto:naziris@uth.gr">naziris@uth.gr</a></p>  
+  <p align="center"> </p>
+	<p align="center"> 
+	<p align="center"> 
+	<p align="center">
     
-</div>
+   <div class="foto"></div>
+<span class="foto"><img src="images/The-Job-of-a-Doctor.jpg" height="161.974" width="272.684" /></span> </div>
 </body>
 </html>
