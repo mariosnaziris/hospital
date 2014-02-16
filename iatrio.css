@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+#login {
+	background-color:#CCC;
+	width:450px;
+	margin-left:450px;
+	padding-top:10px;
+	padding-left:10px;
+	text-align:left;
+	padding-left:30px;
+}
+
+#reg {
+	background-color:#CCC;
+	width:500px;
+	margin-left:400px;
+	text-align:left;
+	padding-left:40px;
+}
+
+#button {
+	text-align:right;
+	padding-right:20px;
+	padding-bottom:20px
+}
+
+#success {
+	background-color:#CCC;
+	margin-left:410px;
+	padding-left:40px;
+	font-size:larger;
+	width:400px;
+	text-align:center;
+	margin-top:-40px;
+}
+
+#site{
+	margin-right:75px;
+	margin-top:10px;
+	padding-left: 200px;
+}
+img{
+	margin-left:400px;
+	margin-bottom:50px;
+	margin-top:auto;
+}
+
+h1 {
+    text-align:left;
+	padding-left:400px;
+	font-size:20px;
+	padding-left:600px;
+}
+
+h2 {
+    text-align:left;
+	font-size:20px;
+	padding-left:570px;
+	margin-top:-40px;
+}
+
+h3{
+	text-align:center;
+	font-size:23px;
+	color: #36C;
+	border:1px #36C;
+	margin-top:-30px;
+	margin-right:150px;
+	}
+	
+h4{
+	text-align:center;
+}
+
+h5{
+	font-size:16px;
+	color:#000;
+	text-decoration: underline;
+	}
+	
+h6 {
+	text-align:left;
+	font-size:large;
+}
+
+h7{
+	text-align:center;
+	font-size:23px;
+	color: #36C;
+	border:1px #36C;
+}
+
+#site {
+	margin-left:150px;
+	background-color:#FFFAF0;
+	position:absolute;
+	color: #000;
+	letter-spacing:0.2em;
+	width:550px;
+	height:612px;
+	padding-right:40px;
+	padding-bottom:30px;
+	padding-top:10px;
+	padding-left:40px;
+	height: 797px;
+	left: 254px;
+	top: 117px;
+	font-size: 12px;
+	}
+
+.foto{
+	top:312px;
+	left:-293px;
+	position:absolute;
+	margin-left: 0px;
+	z-index:auto;
+}
+
+.menuback {
+	height:50px;
+	width:126px;
+	margin-left: 280px;
+	margin-top: 30px;
+	list-style-type: none;
+	position: absolute;
+	top: 98px;
+	left: -11px;
+	background:#36C;
+	border:1px solid #000;
+	border: 0.1em black outset;
+	margin-bottom: 10px;
+}
+
+.firstalldoc{
+	float:left;
+	width:126px;
+	height:300px;
+	text-align:center;
+	position:relative;
+	background:#ECE9D8;
+	text-align:center;
+	border: 0.1em black outset;
+	padding-top:5px;
+	padding-bottom:5px;
+
+
+}
+
+.firstallpati{
+	float:left;
+	width:126px;
+	height:200px;
+	text-align:center;
+	position:relative;
+	background:#ECE9D8;
+	text-align:center;
+	border: 0.1em black outset;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.firstallboss{
+	float:left;
+	width:126px;
+	height:440px;
+	text-align:center;
+	position:relative;
+	background:#ECE9D8;
+	text-align:center;
+	border: 0.1em black outset;
+	padding-top:7px;
+	padding-bottom:5px;
+}
+
+.first{
+	float:left;
+	width:125px;
+	height:40px;
+	position:relative;
+	background:#ECE9D8;
+	text-align:center;
+	text-decoration:none;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+
+#date{
+	
+	background-color:#6699FF;
+	color:#FFFFFF;
+	letter-spacing:0.2em;
+	width:610px;
+	height:25px;
+	margin-left:-35px;
+	padding-left:10px;
+	padding-top:5px;
+	margin-top:-5px;
+	font-size:14px;
+	font:bolder;
+}
+	
+.menuback .firstall .first a {
+	text-decoration: none;
+	text-align: center;
+	margin: 1px;
+	padding: 1px;
+	top: auto;
+	clip: rect(auto,auto,auto,auto);
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+.menuback .firstallpati .first a {
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+.menuback .firstallboss .first a {
+	text-decoration: none;
+}
